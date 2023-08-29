@@ -1,11 +1,12 @@
 import './Footer.css'
 import Link from './../link/Link'
+import imagem from ".././../assets/loguinho.png"
 
 export function Footer(){
   return(
     <footer className='footer-footer'>
         <div>
-        <img className='footer-img' src='src/componentes/rodape.png' />
+        <img className='footer-img' src= {imagem}/>
       </div>
      <ul className='Lista'>
     <li>

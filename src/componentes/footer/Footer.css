@@ -1,7 +1,7 @@
 footer{
     position: fixed;
     bottom: 0;
-    background-color: pink;
+    background-color:#101820;;
     width: 100%;
     justify-content: space-evenly ;
     display: flex;
@@ -10,7 +10,7 @@ footer{
 footer ul li a{
    padding-top: 2vh;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #dbdcde;
     display: flex;
     flex-direction: column;
     margin-right: 120px;
@@ -18,16 +18,17 @@ footer ul li a{
 }
 footer ul{
     list-style: none;
+    color: #cececf;
 }
 footer h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .footer-img{
-    width:9vw;
+    width:7vw;
     position:fixed;
     left:0;
     bottom: 0;
     margin-left: 50px;
-    margin-bottom: 8vh;
+    margin-bottom: 9vh;
   }

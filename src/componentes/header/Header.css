@@ -1,8 +1,8 @@
 header{
-    background-color: pink;
+    background-color: #101820;;
     display: flex;
     justify-content: space-between;
-    padding: 2vh 10vw;
+    padding: 4vh 10vw;
     align-items: center;
 }
 header ul{
@@ -13,18 +13,17 @@ header ul{
 header ul li a{
     padding: 15px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    border: 2px solid hotpink;
-
+    color: rgb(245, 245, 245);
+    border: 2px solid #dbdcde
 }
 header h1{
     color:hotpink;
 }
 .header-img{
-    width:7vw;
+    width:5.25vw;
     position:fixed;
     left:0;
-    top:0;
-    margin-top: 09px;
-    margin-left: 150px;
+    top:1vh;
+    margin-top: 0.25vh;
+    margin-left: 7vh;
   }
