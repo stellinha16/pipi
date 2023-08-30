@@ -1,7 +1,16 @@
 .meio-img{
-    width: 9vh;
-    position:fixed;
-    right: 10px;
-    margin-left: 3vh;
+    height: 40vh;
+    position: fixed;
+    right: 0;
+    margin-right: 35vh;
+}.meio-h{
+  margin-top: 5vh;
+  margin-left: 5vw;
+  font-size: 4vh;
 
+}
+.meio-p{
+    width: 90vh;
+    margin-left: 9vh;
+    font-size: 4vh;
 }

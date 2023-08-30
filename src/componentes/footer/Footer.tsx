@@ -10,73 +10,61 @@ export function Footer(){
       </div>
      <ul className='Lista'>
     <li>
-        <h3> Produtos </h3>
+        <h3>Historico</h3>
     </li>
     <li>
-        <Link texto='Compre sua Barbie'/>
+        <Link texto='Ifms'/>
           </li>
           <li>
-          <Link texto='Assistir'/>
+          <Link texto='Eurico'/>
           </li>
           <li>
-          <Link texto='Acessórios'/>
-          </li>
-          <li>
-          <Link texto='Roupas'/>
+          <Link texto='Juracy'/>
           </li>
     </ul>
 
     <ul className='Lista'>
     <li>
-        <h3> Informações</h3>
+        <h3> Ballet</h3>
     </li>
     <li>
-        <Link texto='Cookies'/>
+        <Link texto='Apresentações'/>
           </li>
           <li>
-          <Link texto='Sobre'/>
+          <Link texto='Medalhas'/>
           </li>
           <li>
-          <Link texto='Atendimento'/>
-          </li>
-          <li>
-          <Link texto='Feedback'/>
+          <Link texto='Viagens'/>
           </li>
     </ul>
 
     <ul className='Lista'>
     <li>
-        <h3>Filmes</h3>
+        <h3>Sobre mim</h3>
     </li>
     <li>
-        <Link texto='Barbie Lago Dos Cisnes '/>
+        <Link texto='Familia'/>
           </li>
           <li>
-          <Link texto='Babie-A Princesa & a Pop Star'/>
+          <Link texto='16y'/>
           </li>
           <li>
-          <Link texto='Barbie-Life in the Dreamhouse'/>
-          </li>
-          <li>
-          <Link texto='Barbie Rainha das Fadas'/>
+          <Link texto='Rede Sociais'/>
           </li>
     </ul>
 
     <ul className='Lista'>
     <li>
-        <h3>Sobre nós</h3>
+        <h3>Termos</h3>
     </li>
     <li>
-        <Link texto='Informações corporativas '/>
+        <Link texto='Suporte'/>
           </li>
           <li>
-          <Link texto='Comunidade'/>
+          <Link texto='Cookies'/>
           </li>
           <li>
           <Link texto='Acessibilidade'/>
-          </li>
-          <li>
-          <Link texto='Carreiras'/>
           </li>
     </ul>
     </footer>
