@@ -1,16 +1,16 @@
 footer{
-    position: fixed;
-    bottom: 0;
-    background-color:#101820;;
+    position: absolute;
+    bottom: -200%;
+    background-color: pink;
     width: 100%;
     justify-content: space-evenly ;
     display: flex;
-    height: 30vh;
+    height: 25vh;
 }
 footer ul li a{
-   padding-top: 2vh;
+    padding-top: 2vh;
     text-decoration: none;
-    color: #dbdcde;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     margin-right: 120px;
@@ -25,10 +25,10 @@ footer h3{
 
 }
 .footer-img{
-    width:7vw;
-    position:fixed;
+    width:9vw;
+    position:absolute;
     left:0;
     bottom: 0;
-    margin-left: 50px;
-    margin-bottom: 9vh;
+    margin-left: 45px;
+    margin-bottom: 2vh;
   }
