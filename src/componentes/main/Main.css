@@ -6,6 +6,25 @@
     justify-content: center;
 
 }
+
+  .eu-content img {
+    max-width: 35vh;
+    height: fixed;
+    box-shadow: 2vh 2vh 22px rgba(29, 30, 116, 0.2); 
+  }
+  
+  .text-eu {
+    margin-left: 30px;
+    color: #140e33; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  .text-eu p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #4d448a; 
+  }
 .campo_pesquisa{
     padding: 15px 100px;
 }

@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import Eu from '../eu/Eu'
-import './Main.css'
+import React, { useState } from 'react';
+import Eu from '../eu/Eu';
+import Imagem from '../../../public/img/eu.jpg'
+import'./Main.css'
 type EuType = {
     id:number,
     titulo:string,
@@ -8,65 +9,53 @@ type EuType = {
     imagem:string
 }
 
-export default function Main() {
-    const [texto,setTexto]=useState("")
 
-    const me:EuType[] = [
+export default function Main() {
+    const [texto, setTexto] = useState("");
+
+    const me: EuType[] = [
         {
-            id:1,
-            titulo:'Ballet',
-            sinopse:"Comecei a fazer aos 6 anos, smepre gostei muito então insisti muita para a minha mãe. Atualmente eu sou formada no ballet e dou aula de balllet e jazz, para adultos, crianças e babys",
-            imagem:'/quadro.jpg'
+            id: 1,
+            titulo: 'Ballet',
+            sinopse: "Possuo 10 anos de experiência como bailarina, com graduação em ballet. Instrutora de ballet e jazz, ministrando aulas para bebês, crianças e adultos, compartilhando meu conhecimento e paixão pela dança.",
+            imagem: '../../../public/img/quadro.jpg'
         },
-        {
-            id:2,
-            titulo:'Vida de Sereia',
-            sinopse:'Barbie é uma campeã de surfe que vive com sua família em Malibu. Um dia, ela descobre um segredo de família: ela é uma sereia. Sua mãe, a rainha de Oceana, está em perigo e ela parte numa grande aventura no fundo do mar para salvá-la.',
-            imagem:'filme2.jpg'
-        },
-        {
-            id:3,
-            titulo:'Butterfly e a Princesa Fairy',
-            sinopse:'Butterfly se torna a embaixadora real de Flutterfield e é enviada para estabelecer a paz entre sua terra encantada e seus rivais. Apesar de não causar uma boa impressão no rei, ela faz amizade com a tímida filha do monarca, a princesa Catania.',
-            imagem:'/filme.jpg'
-        },
-        {
-            id:4,
-            titulo:'Escola de Princesas',
-            sinopse:'Butterfly se torna a embaixadora real de Flutterfield e é enviada para estabelecer a paz entre sua terra encantada e seus rivais. Apesar de não causar uma boa impressão no rei, ela faz amizade com a tímida filha do monarca, a princesa Catania.',
-            imagem:'/3.jpg'
-        },      
-     
     ]
 
 
-    function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
-        setTexto(e.target.value)
+    function TrataTexto(e: React.ChangeEvent<HTMLInputElement>) {
+        setTexto(e.target.value);
     }
+
+    
     return (
+        
         <>
+
+    <div className="eu-content">
+    <img src={Imagem} alt="" />
+    <div className="text-eu">
+        <p> Me chamo Stella Giovana De Oliveira Veiga, tenho 16 anos, estudante do terceiro ano do ensino médio no IFMS de Naviraí, e instrutora de ballet e jazz com 10 anos de experiência . Além disso, tendo estudado  Inglês por 6 anos. </p>
+    </div>
+    </div>
             <div className="campo_pesquisa">
-                <input type="text" 
-                       className='botao_pesquisa'
-                       placeholder='Pesquise um Filme'
-                       onChange={TrataTexto} />
+                <input type="text"
+                    className='botao_pesquisa'
+                    placeholder='Pesquise um Filme'
+                    onChange={TrataTexto} />
                 {texto && <p>Resultados: {texto} </p>}
             </div>
             <main className="content-main">
-             
-                {
-                    me.filter((eu)=>eu.titulo.toLowerCase().includes(texto)).map(
-                        (eu)=>
-                            <Eu 
-                                key={eu.id}
-                                sinopse={eu.sinopse}
-                                titulo={eu.titulo}
-                                imagem={eu.imagem}
-                            />
-                    )
-                }
 
-        </main>
+                {me.filter((eu) => eu.titulo.toLowerCase().includes(texto)).map(
+                    (eu) => <Eu
+                        key={eu.id}
+                        sinopse={eu.sinopse}
+                        titulo={eu.titulo}
+                        imagem={eu.imagem} />
+                )}
+
+            </main>
         </>
-    )
+    );
 }

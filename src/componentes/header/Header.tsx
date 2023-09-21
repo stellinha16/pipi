@@ -1,12 +1,12 @@
 import './Header.css'
 import Link from './../link/Link'
-import imagem from "../img/header.png"
+import topo from '.././../../public/img/header.png'
 
 export function Header(){
   return(
     <header className='header-header'>
       <div>
-      <img className='header-img' src= {imagem}/>
+      <img className='header-img' src= {topo}/>
       </div>
       <nav>
         <ul>
