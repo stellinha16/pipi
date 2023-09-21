@@ -7,7 +7,7 @@ type EuProps ={
 }
 function Eu(props:EuProps){
     return(
-        <div className="filme-content">
+        <div className="eu-content">
             <div className='foto-eu'>
         <img className="img-eu" src={props.imagem} alt="" />
             </div>

@@ -1,6 +1,6 @@
 import './Footer.css'
 import Link from './../link/Link'
-import imagem from ".././../assets/loguinho.png"
+import imagem from "../img/loguinho.png"
 
 export function Footer(){
   return(
