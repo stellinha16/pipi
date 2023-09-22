@@ -1,6 +1,6 @@
 import './Header.css'
 import Link from './../link/Link'
-import topo from '.././../../public/img/header.png'
+import topo from '../img/header.png'
 
 export function Header(){
   return(

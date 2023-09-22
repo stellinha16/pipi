@@ -1,6 +1,6 @@
 import './Footer.css'
 import Link from './../link/Link'
-import loguinho from '.././../../public/img/loguinho.png';
+import loguinho from '../img/loguinho.png';
 
 export function Footer(){
   return(
